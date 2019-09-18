@@ -16,7 +16,7 @@ module.exports = {
   }],
   author: {
     name: 'Frenco Jobs',
-    photo: '/photo.jpg',
+    photo: '/photo.png',
     bio: 'student at UIT, codes ocassionally',
     contacts: {
       email: 'me@frenco.codes',
