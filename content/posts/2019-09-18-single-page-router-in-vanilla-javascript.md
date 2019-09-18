@@ -1,8 +1,8 @@
 ---
 template: post
 title: Single Page Router in vanilla Javascript
-slug: /single-page-router-in-vanilla-js
-draft: true
+slug: /single-page-router-in-vanilla-js/
+draft: false
 date: 2018-08-02T07:04:43.857Z
 description: 'How can you make one, intuitively.'
 category: Javascript
