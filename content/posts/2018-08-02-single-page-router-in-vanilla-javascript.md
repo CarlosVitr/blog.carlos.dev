@@ -5,6 +5,7 @@ slug: /single-page-router-in-vanilla-js/
 draft: false
 date: 2018-08-02T07:04:43.857Z
 description: 'How can you make one, intuitively.'
+socialImage: /media/creating-single-page-router.jpg
 category: Javascript
 tags:
   - Javascript
