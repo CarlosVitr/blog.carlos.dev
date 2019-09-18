@@ -10,9 +10,9 @@
   @include margin-bottom(2);
 
   &__bio {
-    &-twitter {
-      display: block;
-      text-decoration: underline;
+    &-twitter, &-github {
+      display: inline;
+      text-decoration: none;
     }
   }
 }

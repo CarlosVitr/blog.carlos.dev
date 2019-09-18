@@ -10,14 +10,22 @@ const Author = () => {
   return (
     <div className={styles['author']}>
       <p className={styles['author__bio']}>
-        {author.bio}
         <a
           className={styles['author__bio-twitter']}
           href={getContactHref('twitter', author.contacts.twitter)}
           rel="noopener noreferrer"
           target="_blank"
         >
-          <strong>{author.name}</strong> on Twitter
+          <strong>Twitter </strong>
+        </a>
+        &middot;
+        <a
+          className={styles['author__bio-github']}
+          href={getContactHref('twitter', author.contacts.github)}
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <strong> Github</strong>
         </a>
       </p>
     </div>
