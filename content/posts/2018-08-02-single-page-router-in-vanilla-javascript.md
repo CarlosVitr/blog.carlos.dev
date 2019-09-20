@@ -85,7 +85,7 @@ The basic structure is done, we have to define what we have said, navigate funct
 ```javascript
 this.navigate = routes =>{
     if(!location.hash) location.hash = '#/' //If there's no hash
-    let path = location.hash,substr(1) // remove the hash
+    let path = location.hash.substr(1) // remove the hash
     //It's time to render
     if(routes[path]){
         document.getElementById(this.outlet).innerHTML = routes[path]    
