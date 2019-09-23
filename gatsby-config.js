@@ -189,7 +189,6 @@ module.exports = {
         icon: 'static/photo.png'
       },
     },
-    'gatsby-plugin-offline',
     'gatsby-plugin-catch-links',
     'gatsby-plugin-react-helmet',
     {
