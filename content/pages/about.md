@@ -1,13 +1,19 @@
 ---
-title: "About me"
-template: "page"
-socialImage: "/media/__.jpg"
+template: page
+title: About me
+slug: /pages/about/
+draft: false
 ---
+I am currently attending classes at University of Information Technology, Myanmar.
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.
+And I have a little bit of web development knowledge so I built this site.
 
-![Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.](/media/__.jpg)
+I can type about 50 words per minute, and I like to listen LAUV songs on the bus.
 
-*Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.*
+Elon Musk is my role model.
 
-Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+I like cats and I usually pretend to love big dogs even though I am so much afraid of them.
+
+I hate to use chat abbreviations like LOL, BTW, & I don't like emojis either.
+
+BTW, I've seen two TESLA in real life, and I ❤️ them a lot.
