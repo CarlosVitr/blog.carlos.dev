@@ -16,7 +16,7 @@ Sometimes you probably might wonder how fast your web application can proceed, o
 
 Testing the performance is all about dealing with time. The great thing is that almost every programming language has a date class, with the help of it we can handle the counting of time easier. So, let me write a few code representing the calculation of performance together with date object. Don't forget that you are facing with computer processing that can perform a lot even in a short time. They really are super fast, therefore, you can't count it's working rate per time with seconds, if so the error percent will be huge and your test can't be accurate. Date object has a method called `getTime()` that can return the number of milliseconds since 1 January 1970 00:00:00, and that might really be useful in our testing. (To have more accurateness, milliseconds in not sufficient enough to perform the test. High resolution time could be measured using the `performance API` that we'll cover later in the next part of this article.)
 
-I just want to show you also can just do that way, and I also intended to the runtime scripts that will not be supported by the performance API. For the browsers used scripts, I want you to prefer the performance API that results in high resolution time and it's the highly recommended `API supported for performance testing`. 
+I just want to show you also can just do that way, and I also intended to the runtime scripts that will not be supported by the performance API. For the browsers used scripts, I want you to prefer the performance API that results in high resolution time and it's the highly recommended `API` supported for performance testing.
 
 ```js
 let startTime, endTime, timeTaken
