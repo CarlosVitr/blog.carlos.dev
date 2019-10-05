@@ -28,14 +28,18 @@ const Layout = ({
       <Helmet>
         <html lang="en" />
         <title>{title}</title>
+        <link rel="canonical" href={url} />
         <meta name="title" content={title} />
         <meta name="description" content={description} />
 
+        <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="article" />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
         <meta property="og:image" content={metaImageUrl} />
         <meta property="og:url" content={url} />
+        <meta property="og:site_name" content="Blog by Frenco" />
+
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content={metaImageUrl} />
