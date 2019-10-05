@@ -34,7 +34,9 @@ const Post = ({ post }: Props) => {
       <div className={styles['post__comments']}>
         <Comments postSlug={slug} postTitle={post.frontmatter.title} />
       </div>
-      <Author />
+      <div className={styles['post__footer']}>
+        <Author />
+      </div>
     </div>
   );
 };
