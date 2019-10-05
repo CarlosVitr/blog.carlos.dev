@@ -6,7 +6,7 @@ module.exports = {
   title: 'Blog by Frenco',
   subtitle: 'words not dat good tho',
   copyright: '© All rights reserved.',
-  disqusShortname: '',
+  disqusShortname: 'frencojobs',
   postsPerPage: 5,
   googleAnalyticsId: 'UA-145101623-2',
   useKatex: false,
