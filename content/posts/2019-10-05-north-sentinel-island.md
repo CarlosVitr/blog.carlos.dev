@@ -2,7 +2,7 @@
 template: post
 title: North Sentinel Island
 slug: /north-sentinel-island/
-draft: true
+draft: false
 date: 2019-10-05T04:58:14.478Z
 description: >-
   သမိုင်းအစဥ်အလာရှိ နာမည်ကြီးကျွန်း။ ကိုယ်ဘာကြောင့်မသိခဲ့လဲဆိုတာ
