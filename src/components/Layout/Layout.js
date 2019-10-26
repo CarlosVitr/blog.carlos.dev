@@ -24,7 +24,7 @@ const Layout = ({
   const { author, url } = useSiteMetadata();
   const metaImage = socialImage != null ? socialImage : author.photo;
   const metaImageUrl = url + withPrefix(metaImage);
-  const url_absolute = url + slug;
+  const url_absolute = url + (slug || "");
 
   return (
     <div className={styles.layout}>
