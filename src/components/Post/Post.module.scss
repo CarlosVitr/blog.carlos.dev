@@ -19,10 +19,11 @@
     max-width: 90px;
     height: $button-height;
     padding: 0 24px;
-    line-height: $button-height;
+    line-height: $button-height / 1.2;
     text-align: center;
     color: $color-base;
     border: 2px solid $color-gray-border;
+    background-color: $color-gray-border;
     border-radius: $button-border-radius;
     font-size: $typographic-base-font-size;
     font-weight: normal;

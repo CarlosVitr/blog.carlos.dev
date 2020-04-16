@@ -22,11 +22,12 @@
       align-items: center;
       justify-content: center;
       height: $button-height;
-      width: $button-height;
+      width: $button-height / 1.2;
       line-height: $button-height;
       border-radius: 50%;
       text-align: center;
       border: 2px solid $color-gray-bg;
+      background-color: $color-gray-bg;
 
       &-link {
         border: 0;
