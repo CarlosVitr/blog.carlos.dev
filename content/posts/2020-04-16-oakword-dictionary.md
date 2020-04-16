@@ -5,10 +5,9 @@ slug: /oakword-dictionary/
 draft: false
 date: 2020-01-22T16:36:13.467Z
 description: >-
-  English to Myanmar ရော Myanmar to English ရော အဘိဓာန် ဒေတာတွေကို Public API
-  လုပ်ထားတာမျိုး မရှိသေးတော့ Oakword Dictionary ဆိုပြီး လေ့လာချင်ပေမယ့်
-  မလေ့လာဖြစ်သေးတဲ့ stack တွေအားလုံး ထည့်သုံးလို့ရမယ့် ပရောဂျက်တစ်ခု
-  စလုပ်ဖြစ်သွားတယ်။
+  အဘိဓာန် ဒေတာတွေကို Public API လုပ်ထားတာမျိုး မရှိသေးတော့ Oakword Dictionary
+  ဆိုပြီး လေ့လာချင်ပေမယ့် မလေ့လာဖြစ်သေးတဲ့ stack တွေအားလုံး ထည့်သုံးလို့ရမယ့်
+  ပရောဂျက်တစ်ခု စလုပ်ဖြစ်သွားတယ်။
 socialImage: /media/oakword.png
 category: project
 tags:
