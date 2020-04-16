@@ -11,6 +11,7 @@
     "bluebird": "^3.5.5",
     "classnames": "^2.2.6",
     "codecov": "^3.5.0",
+    "darkmode-js": "^1.5.5",
     "gatsby": "^2.20.22",
     "gatsby-link": "^2.2.13",
     "gatsby-plugin-catch-links": "^2.1.9",
@@ -67,6 +68,7 @@
     "identity-obj-proxy": "3.0.0",
     "lost": "8.3.1",
     "postcss-pxtorem": "4.0.1",
+    "prettier": "^2.0.4",
     "react-test-renderer": "16.9.0",
     "rimraf": "3.0.0"
   }
