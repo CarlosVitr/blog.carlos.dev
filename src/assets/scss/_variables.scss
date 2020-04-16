@@ -13,8 +13,7 @@ $color-gray-border: lighten($color-base, 77%);
 $color-gray-bg: lighten($color-base, 79%);
 
 // Typographic
-$typographic-font-family: "Sen", "Pyidaungsu", monospace, "Helvetica Neue",
-  sans-serif;
+$typographic-font-family: "Work Sans", "Tharlon", sans-serif;
 $typographic-header-family: "Montserrat", $typographic-font-family;
 
 $typographic-root-font-size: 100;
@@ -36,7 +35,7 @@ $button-height: 35px;
 $button-border-radius: 20px;
 
 // Layout
-$layout-post-single-width: 945px;
+$layout-post-single-width: 995px;
 $layout-post-width: $layout-post-single-width - 305px;
 
 $layout-width: 1070px;
