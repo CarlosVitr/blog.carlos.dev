@@ -2,7 +2,7 @@
   "main": "n/a",
   "scripts": {
     "develop": "gatsby develop",
-    "build": "gatsby build",
+    "build": "npm run clean && gatsby build",
     "clean": "rimraf .cache public",
     "flow": "flow",
     "format": "prettier --write src/**/*"
