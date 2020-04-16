@@ -1,5 +1,5 @@
-@import '../../assets/scss/variables';
-@import '../../assets/scss/mixins';
+@import "../../assets/scss/variables";
+@import "../../assets/scss/mixins";
 
 .post {
   &__footer {
@@ -22,7 +22,7 @@
     line-height: $button-height;
     text-align: center;
     color: $color-base;
-    border: 1px solid $color-gray-border;
+    border: 2px solid $color-gray-border;
     border-radius: $button-border-radius;
     font-size: $typographic-base-font-size;
     font-weight: normal;
@@ -34,9 +34,7 @@
     &:focus {
       color: $color-primary;
     }
-
   }
-
 }
 
 @include breakpoint-md {
@@ -54,9 +52,7 @@
       max-width: auto;
       margin: 0;
       top: 30px;
-      left: 30px
+      left: 30px;
     }
-
   }
-
 }
