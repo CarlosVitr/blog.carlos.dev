@@ -1,24 +1,24 @@
 // @flow strict
-import React from "react";
-import Helmet from "react-helmet";
-import { withPrefix } from "gatsby";
-import type { Node as ReactNode } from "react";
-import { useSiteMetadata } from "../../hooks";
-import styles from "./Layout.module.scss";
+import React from 'react'
+import Helmet from 'react-helmet'
+import { withPrefix } from 'gatsby'
+import type { Node as ReactNode } from 'react'
+import { useSiteMetadata } from '../../hooks'
+import styles from './Layout.module.scss'
 
 type Props = {
   children: ReactNode,
   title: string,
   slug?: string,
   description?: string,
-  socialImage?: string,
-};
+  socialImage?: string
+}
 
 const Layout = ({ children, title, slug, description, socialImage }: Props) => {
-  const { author, url } = useSiteMetadata();
-  const metaImage = socialImage != null ? socialImage : author.photo;
-  const metaImageUrl = url + withPrefix(metaImage);
-  const url_absolute = url + (slug || "");
+  const { author, url } = useSiteMetadata()
+  const metaImage = socialImage != null ? socialImage : author.photo
+  const metaImageUrl = url + withPrefix(metaImage)
+  const url_absolute = url + (slug || '')
 
   return (
     <div className={styles.layout}>
@@ -44,7 +44,7 @@ const Layout = ({ children, title, slug, description, socialImage }: Props) => {
       </Helmet>
       {children}
     </div>
-  );
-};
+  )
+}
 
-export default Layout;
+export default Layout

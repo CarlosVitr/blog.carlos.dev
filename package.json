@@ -4,7 +4,8 @@
     "develop": "gatsby develop",
     "build": "gatsby build",
     "clean": "rimraf .cache public",
-    "flow": "flow"
+    "flow": "flow",
+    "format": "prettier --write src/**/*"
   },
   "license": "MIT",
   "dependencies": {

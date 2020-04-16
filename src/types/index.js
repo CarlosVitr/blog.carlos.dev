@@ -1,16 +1,16 @@
 // @flow strict
-import type { Node as ReactNode } from 'react';
+import type { Node as ReactNode } from 'react'
 
 export type RenderCallback = {
   // $FlowFixMe
-  render: (data: any) => ReactNode;
+  render: (data: any) => ReactNode
 }
 
 export type Entry = {
-  getIn: (string[]) => string;
+  getIn: (string[]) => string
 }
 
-export type WidgetFor = (string) => string;
+export type WidgetFor = (string) => string
 
 export type PageContext = {
   tag: string,
@@ -20,7 +20,7 @@ export type PageContext = {
   nextPagePath: string,
   hasPrevPage: boolean,
   hasNextPage: boolean
-};
+}
 
 export type Node = {
   fields: {
@@ -38,22 +38,22 @@ export type Node = {
   },
   html: string,
   id: string
-};
+}
 
 export type Edge = {
   node: Node
-};
+}
 
-export type Edges = Array<Edge>;
+export type Edges = Array<Edge>
 
 export type AllMarkdownRemark = {
   allMarkdownRemark: {
-    edges: Edges,
+    edges: Edges
   },
   group: {
     fieldValue: string,
     totalCount: number
   }[]
-};
+}
 
-export type MarkdownRemark = Node;
+export type MarkdownRemark = Node

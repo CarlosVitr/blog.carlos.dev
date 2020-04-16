@@ -1,21 +1,21 @@
 // @flow strict
-import React from 'react';
-import { graphql } from 'gatsby';
-import Layout from '../components/Layout';
-import Sidebar from '../components/Sidebar';
-import Feed from '../components/Feed';
-import Page from '../components/Page';
-import Pagination from '../components/Pagination';
-import { useSiteMetadata } from '../hooks';
-import type { PageContext, AllMarkdownRemark } from '../types';
+import React from 'react'
+import { graphql } from 'gatsby'
+import Layout from '../components/Layout'
+import Sidebar from '../components/Sidebar'
+import Feed from '../components/Feed'
+import Page from '../components/Page'
+import Pagination from '../components/Pagination'
+import { useSiteMetadata } from '../hooks'
+import type { PageContext, AllMarkdownRemark } from '../types'
 
 type Props = {
   data: AllMarkdownRemark,
   pageContext: PageContext
-};
+}
 
 const CategoryTemplate = ({ data, pageContext }: Props) => {
-  const { title: siteTitle, subtitle: siteSubtitle } = useSiteMetadata();
+  const { title: siteTitle, subtitle: siteSubtitle } = useSiteMetadata()
 
   const {
     category,
@@ -23,11 +23,14 @@ const CategoryTemplate = ({ data, pageContext }: Props) => {
     prevPagePath,
     nextPagePath,
     hasPrevPage,
-    hasNextPage,
-  } = pageContext;
+    hasNextPage
+  } = pageContext
 
-  const { edges } = data.allMarkdownRemark;
-  const pageTitle = currentPage > 0 ? `${category} - Page ${currentPage} - ${siteTitle}` : `${category} - ${siteTitle}`;
+  const { edges } = data.allMarkdownRemark
+  const pageTitle =
+    currentPage > 0
+      ? `${category} - Page ${currentPage} - ${siteTitle}`
+      : `${category} - ${siteTitle}`
 
   return (
     <Layout title={pageTitle} description={siteSubtitle}>
@@ -42,17 +45,23 @@ const CategoryTemplate = ({ data, pageContext }: Props) => {
         />
       </Page>
     </Layout>
-  );
-};
+  )
+}
 
 export const query = graphql`
   query CategoryPage($category: String, $postsLimit: Int!, $postsOffset: Int!) {
     allMarkdownRemark(
-        limit: $postsLimit,
-        skip: $postsOffset,
-        filter: { frontmatter: { category: { eq: $category }, template: { eq: "post" }, draft: { ne: true } } },
-        sort: { order: DESC, fields: [frontmatter___date] }
-      ){
+      limit: $postsLimit
+      skip: $postsOffset
+      filter: {
+        frontmatter: {
+          category: { eq: $category }
+          template: { eq: "post" }
+          draft: { ne: true }
+        }
+      }
+      sort: { order: DESC, fields: [frontmatter___date] }
+    ) {
       edges {
         node {
           fields {
@@ -69,6 +78,6 @@ export const query = graphql`
       }
     }
   }
-`;
+`
 
-export default CategoryTemplate;
+export default CategoryTemplate
