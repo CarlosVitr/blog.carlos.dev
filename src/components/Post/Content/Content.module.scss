@@ -19,7 +19,6 @@
   }
 
   &__body {
-    text-align: justify;
     & figure {
       @include margin-bottom(1);
       & blockquote {
