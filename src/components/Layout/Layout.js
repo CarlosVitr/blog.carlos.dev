@@ -15,8 +15,8 @@ type Props = {
 }
 
 const Layout = ({ children, title, slug, description, socialImage }: Props) => {
-  const { author, url } = useSiteMetadata()
-  const metaImage = socialImage != null ? socialImage : author.photo
+  const { url } = useSiteMetadata()
+  const metaImage = socialImage != null ? socialImage : '/cover.png'
   const metaImageUrl = url + withPrefix(metaImage)
   const url_absolute = url + (slug || '')
 
