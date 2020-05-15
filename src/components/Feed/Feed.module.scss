@@ -10,7 +10,7 @@
     }
 
     &-title {
-      font-size: $typographic-base-font-size * 1.6875;
+      font-size: $typographic-base-font-size * 1.6875 * 1.2;
       @include line-height(1.5);
       @include margin-top(0);
       @include margin-bottom(0.5);
@@ -27,14 +27,14 @@
     }
 
     &-description {
-      font-size: $typographic-base-font-size;
-      @include line-height(1);
+      font-size: $typographic-base-font-size-mobile;
+      @include line-height(1.2);
       @include margin-bottom(0.75);
     }
 
     &-meta {
       &-time {
-        font-size: $typographic-small-font-size;
+        font-size: $typographic-small-font-size-mobile;
         color: $color-base;
         font-weight: 600;
         text-transform: uppercase;
@@ -46,7 +46,7 @@
 
       &-category {
         &-link {
-          font-size: $typographic-small-font-size;
+          font-size: $typographic-small-font-size-mobile;
           color: $color-secondary;
           font-weight: 600;
           text-transform: uppercase;
@@ -67,6 +67,20 @@
       &:focus {
         color: $color-primary;
         border-bottom: 1px solid $color-primary;
+      }
+    }
+  }
+}
+
+@include breakpoint-sm {
+  .feed {
+    &__item {
+      &-title {
+        font-size: $typographic-base-font-size * 1.6875 * 1.1;
+      }
+      &-description {
+        font-size: $typographic-base-font-size;
+        @include line-height(1);
       }
     }
   }

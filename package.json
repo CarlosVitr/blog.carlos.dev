@@ -1,7 +1,7 @@
 {
   "main": "n/a",
   "scripts": {
-    "develop": "gatsby develop",
+    "develop": "gatsby develop --host=0.0.0.0",
     "build": "npm run clean && gatsby build",
     "clean": "rimraf .cache public",
     "flow": "flow",
@@ -13,7 +13,7 @@
     "classnames": "^2.2.6",
     "codecov": "^3.5.0",
     "darkmode-js": "^1.5.5",
-    "gatsby": "^2.20.22",
+    "gatsby": "^2.20.29",
     "gatsby-link": "^2.2.13",
     "gatsby-plugin-catch-links": "^2.1.9",
     "gatsby-plugin-feed": "^2.3.12",

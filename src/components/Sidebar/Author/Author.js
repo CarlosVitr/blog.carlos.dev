@@ -1,6 +1,6 @@
 // @flow strict
 import React from 'react'
-import { withPrefix, Link } from 'gatsby'
+import { Link } from 'gatsby'
 import styles from './Author.module.scss'
 
 type Props = {
