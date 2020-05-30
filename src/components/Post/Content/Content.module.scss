@@ -6,22 +6,42 @@
   padding: 0 15px;
   margin: 0 auto;
 
+  &__home {
+    max-width: $layout-post-width;
+    margin-left: auto;
+    margin-right: auto;
+    @include margin-top(1);
+
+    &-link {
+      color: black;
+      font-size: $typographic-base-font-size * 1.2;
+      text-decoration: underline;
+    }
+  }
+
+  &__date {
+    max-width: $layout-post-width;
+    margin-left: auto;
+    margin-right: auto;
+    @include margin-top(0);
+  }
+
   &__title {
     font-size: $typographic-base-font-size * 2;
     max-width: $layout-post-width;
     margin-left: auto;
     margin-right: auto;
-    font-weight: 600;
-    text-align: center;
-    @include line-height(1.65);
+    font-weight: 900;
+    text-align: left;
+    @include line-height(1.5);
     @include margin-top(1);
     @include margin-bottom(0);
   }
 
   &__body {
-    font-size: $typographic-base-font-size-mobile * 1.1;
+    font-size: $typographic-base-font-size-mobile;
     & p {
-      @include line-height(1.25);
+      @include line-height(1.1);
       @include margin-bottom(1.25);
     }
     & figure {
@@ -63,10 +83,10 @@
     padding: 0;
 
     &__title {
-      font-size: $typographic-base-font-size * 3;
+      font-size: $typographic-base-font-size * 2;
       @include line-height(2.25);
-      @include margin-top(2.25);
-      @include margin-bottom(1.5);
+      @include margin-top(1);
+      @include margin-bottom(0);
     }
 
     &__body {
