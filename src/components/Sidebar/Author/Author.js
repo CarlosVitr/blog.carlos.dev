@@ -27,25 +27,12 @@ const Author = ({ author, isIndex }: Props) => {
     </Link> */}
 
       {isIndex === true ? (
-        <h1
-          className={styles['author__title']}
-          onClick={(e) => {
-            new Darkmode()
-          }}
-        >
+        <h1 className={styles['author__title']}>
           <span className={styles['author__title-link']}>{author.name}</span>
-
-          <span style={{ color: 'white' }}> Dark?</span>
         </h1>
       ) : (
-        <h2
-          className={styles['author__title']}
-          onClick={(e) => {
-            new Darkmode()
-          }}
-        >
+        <h2 className={styles['author__title']}>
           <span className={styles['author__title-link']}>{author.name}</span>
-          <span style={{ color: 'white' }}> Dark?</span>
         </h2>
       )}
       <p className={styles['author__subtitle']}>{author.bio}</p>

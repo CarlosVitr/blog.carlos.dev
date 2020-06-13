@@ -41,6 +41,12 @@ const getIcon = (name: string) => {
     case 'weibo':
       icon = ICONS.WEIBO
       break
+    case 'sun':
+      icon = ICONS.SUN
+      break
+    case 'moon':
+      icon = ICONS.MOON
+      break
     default:
       icon = {}
       break

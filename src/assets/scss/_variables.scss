@@ -3,9 +3,9 @@
  */
 
 // Colors
-$color-base: #222;
-$color-primary: #5d93ff;
-$color-secondary: #2e79d1;
+$color-base: #222222;
+$color-primary: #0070f3;
+$color-secondary: #3291ff;
 
 $color-white: #fff;
 $color-gray: lighten($color-base, 40%);
@@ -14,7 +14,7 @@ $color-gray-bg: lighten($color-base, 79%);
 
 // Typographic
 $typographic-font-family: 'Prodigy Sans', 'Pyidaungsu', sans-serif;
-$typographic-header-family: 'Inter', $typographic-font-family;
+$typographic-header-family: $typographic-font-family;
 
 $typographic-root-font-size: 100;
 $typographic-base-font-size: 15px;
