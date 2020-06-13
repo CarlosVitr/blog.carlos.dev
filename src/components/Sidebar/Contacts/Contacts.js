@@ -3,8 +3,8 @@ import React from 'react'
 import { getContactHref, getIcon } from '../../../utils'
 import Icon from '../../Icon'
 import styles from './Contacts.module.scss'
-import useDarkMode from 'use-dark-mode'
-import DarkmodeJS from 'darkmode-js'
+// import useDarkMode from 'use-dark-mode'
+// import DarkmodeJS from 'darkmode-js'
 
 type Props = {
   contacts: {
@@ -13,7 +13,7 @@ type Props = {
 }
 
 const Contacts = ({ contacts }: Props) => {
-  const darkMode = useDarkMode(true)
+  // const darkMode = useDarkMode(true)
 
   return (
     <div className={styles['contacts']}>
