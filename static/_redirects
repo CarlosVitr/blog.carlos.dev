@@ -1,2 +1,0 @@
-# Redirect default Netlify subdomain to primary domain
-https://blog-frenco-dev.netlify.app/* https://blog.frenco.dev/:splat 301!
