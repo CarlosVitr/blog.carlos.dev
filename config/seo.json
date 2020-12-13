@@ -1,0 +1,16 @@
+{
+  "siteMetadata": {
+    "title": "Blog by Frenco",
+    "author": {
+      "name": "Frenco",
+      "profile": "https://unavatar.now.sh/github/frencojobs",
+      "summary": "who works on Rust, Dart, and everything else he enjoy."
+    },
+    "description": "What's on my mind.",
+    "siteUrl": "https://blog.frenco.dev",
+    "language": "en-US",
+    "social": {
+      "twitter": "frencojobs"
+    }
+  }
+}
