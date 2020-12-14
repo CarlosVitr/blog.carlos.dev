@@ -10,6 +10,10 @@ export default class MyDocument extends Document {
     return (
       <Html lang={siteMetadata.language}>
         <Head>
+          <link
+            rel="stylesheet"
+            href="https://mmwebfonts.comquas.com/fonts/?font=pyidaungsu"
+          />
           {/* Global Site Tag (gtag.js) - Google Analytics */}
           <script
             async
