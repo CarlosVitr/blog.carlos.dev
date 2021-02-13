@@ -1,16 +1,16 @@
 {
   "siteMetadata": {
-    "title": "Blog by Frenco",
+    "title": "Blog by Carlos",
     "author": {
-      "name": "Frenco",
-      "profile": "https://unavatar.now.sh/github/frencojobs",
-      "summary": "who works on Rust, Dart, and everything else he enjoy."
+      "name": "Carlos",
+      "profile": "https://unavatar.now.sh/github/carlosvitr",
+      "summary": "who works on Node.js , Angular, and everything else he enjoy."
     },
     "description": "What's on my mind.",
-    "siteUrl": "https://blog.frenco.dev",
+    "siteUrl": "http://carlosvitor.ml",
     "language": "en-US",
     "social": {
-      "twitter": "frencojobs"
+      "twitter": "Clsvitor"
     }
   }
 }
