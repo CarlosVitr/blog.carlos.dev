@@ -1,5 +1,8 @@
 # blog.carlos.dev
 my o blog  ✏️ 
+
+[![Build Status](https://travis-ci.org/CarlosVitr/blog.carlos.dev.svg?branch=main)](https://travis-ci.org/CarlosVitr/blog.carlos.dev)
+
 ```
 @CarlosVitr/blog.carlos.dev/pages/index.js
 
